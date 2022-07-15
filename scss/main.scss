@@ -1,0 +1,29 @@
+@import "./fonts";
+@import "./norm";
+@import "./variables";
+@import "./vh";
+
+// bloc scss conacted .
+@import "blocks/blocks.scss";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", "Arial", sans-serif;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}

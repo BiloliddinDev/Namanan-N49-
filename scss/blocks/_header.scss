@@ -1,0 +1,117 @@
+@import "./../variables";
+
+.header {
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: $main-gray;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  &__container {
+    display: flex;
+    align-items: center;
+  }
+
+  &__img {
+    display: block;
+    width: 276px;
+    height: 45px;
+  }
+
+  &__currencies {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    margin-left: 35px;
+  }
+
+  &__icon {
+    font-weight: 700;
+    color: #2959ce;
+    font-size: 16px;
+    line-height: 18px;
+    display: inline-block;
+    margin-right: 5px;
+  }
+
+  &__currency:not(:last-child) {
+    margin-right: 25px;
+  }
+
+  &__label-search {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  &__label-search::before {
+    content: "";
+    position: absolute;
+    margin-left: 15px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url("./../images/lupa.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+  }
+
+  &__search {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-right: 14px;
+    padding-left: 40px;
+    border-radius: 60px;
+    border: none;
+    background-color: #ffffff;
+    outline: none;
+  }
+
+  &__lang {
+    background-color: #dce6ff;
+    border-radius: 39px;
+    width: 70px;
+    margin-left: 25px;
+    margin-right: 25px;
+    display: flex;
+    padding: 3px;
+    justify-content: space-between;
+
+    &-label {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      font-size: 13px;
+      line-height: 12px;
+      color: #a6a6a6;
+      cursor: pointer;
+    }
+
+    &-label--active {
+      color: #000000;
+      background-color: #ffffff;
+    }
+  }
+
+  &__radio:checked + label {
+    color: #000000;
+    background-color: #ffffff;
+  }
+
+  &__login {
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #7296ec;
+  }
+}
+
+

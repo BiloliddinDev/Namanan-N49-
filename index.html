@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Namanganliklar</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <a href="index.html" class="header__link">
+          <img
+            class="header__img"
+            src="./images/logo.svg"
+            alt="header logo"
+            width="276"
+            height="45"
+          />
+        </a>
+
+        <div class="header__currencies">
+          <div class="header__currency">
+            <span class="header__icon">$</span>
+            11000.20
+          </div>
+          <div class="header__currency">
+            <span class="header__icon">P</span>
+            480.20
+          </div>
+        </div>
+
+        <form action="" class="header__form">
+          <label class="header__label-search" for="search">
+            <input
+              class="header__search"
+              type="search"
+              id="search"
+              name="search"
+              placeholder="Поиск"
+            />
+          </label>
+        </form>
+
+        <form class="header__lang header__lang--active">
+          <div class="header__wrapper">
+            <input
+              class="header__radio visually-hidden"
+              type="radio"
+              name="lang"
+              id="uz"
+            />
+            <label class="header__lang-label" for="uz">UZ</label>
+          </div>
+
+          <div class="header__wrapper">
+            <input
+              class="header__radio visually-hidden"
+              type="radio"
+              name="lang"
+              id="ru"
+            />
+            <label class="header__lang-label" for="ru">RU</label>
+          </div>
+        </form>
+
+        <button class="header__login">Войти</button>
+        <!--End nav bar -->
+      </div>
+    </header>
+  </body>
+</html>
