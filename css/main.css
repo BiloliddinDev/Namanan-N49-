@@ -174,6 +174,8 @@
 .wraper__nowe {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
 }
 
 .wraper {
@@ -185,6 +187,7 @@
   padding-top: 20px;
   display: flex;
   flex-direction: column;
+  margin-bottom: 10px;
 }
 .wraper__box-heading {
   font-style: normal;
@@ -222,6 +225,11 @@
   display: flex;
   align-items: center;
 }
+
+.data__img {
+  margin-right: 10px;
+}
+
 *,
 *::before,
 *::after {

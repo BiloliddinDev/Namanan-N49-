@@ -1,6 +1,8 @@
 .wraper__nowe {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
 }
 
 .wraper {
@@ -12,6 +14,7 @@
   padding-top: 20px;
   display: flex;
   flex-direction: column;
+  margin-bottom: 10px;
 
   &__box-heading {
     font-style: normal;
@@ -50,9 +53,9 @@
     color: #5e5f61;
     display: flex;
     align-items: center;
-    
-
-    &__img {
-    }
   }
+}
+
+.data__img {
+  margin-right: 10px;
 }
