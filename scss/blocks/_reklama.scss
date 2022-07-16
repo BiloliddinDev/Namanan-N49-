@@ -1,0 +1,9 @@
+.aside {
+  margin-top: 40px ;
+  margin-bottom: 50px;
+
+  &__img{
+    border-radius: 8px;
+    object-fit: cover;
+  }
+}
