@@ -1,0 +1,57 @@
+@import "../variables";
+
+.mire__right {
+  margin-left: 10px;
+}
+
+.right__card {
+  width: 393px;
+  height: 500px;
+  background-color: $main-gray;
+  border-radius: 15px;
+  padding: 20px 17px;
+  margin-bottom: 10px;
+
+  &-heading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin: 0;
+    margin-bottom: 25px;
+  }
+
+  &-text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    margin: 0;
+    margin-bottom: 8px;
+  }
+
+  &-data {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #5e5f61;
+    margin-bottom: 20px;
+  }
+}
+
+.mire-btns {
+  width: 796px;
+  height: 53px;
+  padding: 17px 343px;
+  background-color: #eaeaea;
+  border: none;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  cursor: pointer;
+}
