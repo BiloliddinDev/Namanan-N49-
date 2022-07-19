@@ -780,6 +780,121 @@ template {
   margin-right: 25px;
 }
 
+.box__article {
+  margin-top: 57px;
+}
+
+.left__box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 36px;
+}
+.left__afterimg {
+  margin-right: 10px;
+}
+.left__after {
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #5e5f61;
+}
+.left__heading {
+  width: 797px;
+  height: 72px;
+  margin: 0;
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 36px;
+}
+.left___kartinka {
+  border-radius: 12px;
+  width: 797px;
+  height: 300px;
+  display: inline-block;
+  margin-bottom: 25px;
+}
+.left__lorem100 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+  width: 797px;
+  text-align: start;
+  margin: 0;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+.article {
+  margin-top: 60px;
+}
+.article__heading {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+.article__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 10px;
+}
+.article__box:last-child {
+  margin: 0;
+}
+.article__wraper {
+  align-items: center;
+  width: 393px;
+  height: 207px;
+  background-color: #f6f6f6;
+  border-radius: 15px;
+  padding: 17px 20px;
+  margin-right: 10px;
+}
+.article__wraper:last-child {
+  margin: 0;
+}
+.article__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  width: 358px;
+  height: auto;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.article__lorem {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  margin: 0;
+  margin-bottom: 23px;
+}
+.article__element {
+  display: flex;
+  align-items: center;
+}
+.article__icon {
+  margin-right: 10px;
+}
+.article__ptext {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+}
+
 *,
 *::before,
 *::after {
