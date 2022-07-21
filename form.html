@@ -69,65 +69,80 @@
         <!--End nav bar -->
       </div>
     </header>
-    <nav class="navbar">
-      <a class="navbar__link" href="#">Главное</a>
-      <a class="navbar__link" href="#">Интересное</a>
-      <a class="navbar__link" href="#">Экономика</a>
-      <a class="navbar__link" href="#">Политика</a>
-      <a class="navbar__link" href="#">Общество</a>
-      <a class="navbar__link" href="#">Технологии</a>
-      <a class="navbar__link" href="#">Спорт</a>
-      <a class="navbar__link" href="#">Культура</a>
-      <a class="navbar__link" href="#">Происшествия</a>
-      <a class="navbar__link" href="#">Наука</a>
-    </nav>
-    <div class="form__wraper container">
-      <form action="" method="post">
-        <h2 class="form__heading">Напишите нам</h2>
-        <div class="form__boxleft">
-          <div class="form__list">
-            <input
-              class="form__name"
-              type="text"
-              name="name"
-              placeholder="Имя"
-            />
-            <input
-              class="form__name"
-              type="tel"
-              name="tel"
-              placeholder="Номер телефона"
-            />
+    <main class="container">
+      <nav class="navbar">
+        <a class="navbar__link" href="#">Главное</a>
+        <a class="navbar__link" href="#">Интересное</a>
+        <a class="navbar__link" href="#">Экономика</a>
+        <a class="navbar__link" href="#">Политика</a>
+        <a class="navbar__link" href="#">Общество</a>
+        <a class="navbar__link" href="#">Технологии</a>
+        <a class="navbar__link" href="#">Спорт</a>
+        <a class="navbar__link" href="#">Культура</a>
+        <a class="navbar__link" href="#">Происшествия</a>
+        <a class="navbar__link" href="#">Наука</a>
+      </nav>
+      <div class="form container">
+        <form
+          target="_blank"
+          action="https://echo.htmlacademy.ru/"
+          method="post"
+        >
+          <h2 class="form__heading">Напишите нам</h2>
+          <div class="form__box">
+            <div class="form__boxleft">
+              <div class="form__list">
+                <input
+                  class="form__name"
+                  type="text"
+                  name="name"
+                  placeholder="Имя"
+                />
+                <input
+                  class="form__name"
+                  type="tel"
+                  name="tel"
+                  placeholder="Номер телефона"
+                />
+              </div>
+              <input
+                class="form__email"
+                type="email"
+                name="email"
+                placeholder="Электронная почта"
+              />
+              <br />
+              <textarea
+                class="form__textarea"
+                name="Sms"
+                placeholder="Текст"
+              ></textarea>
+            </div>
+
+            <div class="form__boxright">
+              <address class="form__address">
+                <h3 class="form__title1">Электронная почта</h3>
+                <a class="form__iner" href="mailto:info@namanganliklar24.uz"
+                  >info@namanganliklar24.uz</a
+                >
+                <hr class="form__vektor" />
+                <h3 class="form__title">Номер телефона</h3>
+                <a class="form__iner" href="tel:++998 88 522-54-76"
+                  >+998 88 522-54-76</a
+                >
+                <hr class="form__vektor" />
+                <h3 class="form__title">Адрес</h3>
+                <a class="form__iner" href="https://www.google.com/maps"
+                  >Ташкент, площадь Мустакиллик, 6
+                </a>
+                >
+              </address>
+            </div>
           </div>
-          <input
-            class="form__email"
-            type="email"
-            name="email"
-            placeholder="Электронная почта"
-          />
-          <br />
-          <textarea name="Sms" placeholder="Текст"></textarea>
-        </div>
-        <button type="submit" class="form__send">Отправить</button>
-        <div class="form__boxright">
-          <address class="form__address">
-            <h3 class="form__title">Электронная почта</h3>
-            <a class="form__iner" href="mailto:info@namanganliklar24.uz"
-              >info@namanganliklar24.uz</a
-            >
-            <h3 class="form__title">Номер телефона</h3>
-            <a class="form__iner" href="tel:++998 88 522-54-76"
-              >+998 88 522-54-76</a
-            >
-            <h3 class="form__title">Адрес</h3>
-            <a href="https://www.google.com/maps"
-              >Ташкент, площадь Мустакиллик, 6
-            </a>
-            >
-          </address>
-        </div>
-      </form>
-    </div>
+          <button type="submit" class="form__send">Отправить</button>
+        </form>
+      </div>
+    </main>
     <footer class="footer">
       <div class="footer__box">
         <div class="box__top">

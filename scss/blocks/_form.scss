@@ -1,0 +1,124 @@
+@import "../variables";
+
+.form {
+  margin-top: 60px;
+
+  &__heading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+  }
+
+  &__box {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__name {
+    width: 343px;
+    height: 55px;
+    border: 1px solid #00000033;
+    outline: none;
+    border-radius: 10px;
+    margin-right: 10px;
+    padding: 18px 0;
+    padding-left: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    opacity: 0.5;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    color: #000000;
+  }
+
+  &__email {
+    width: 700px;
+    height: 55px;
+    border: 1px solid #00000033;
+    outline: none;
+    border-radius: 10px;
+    margin-right: 10px;
+    padding: 18px 0;
+    padding-left: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    opacity: 0.5;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+  }
+
+  &__textarea {
+    width: 700px;
+    height: 180px;
+    resize: none;
+    border: 1px solid #00000033;
+    outline: none;
+    border-radius: 10px;
+    margin-right: 10px;
+    padding: 18px 0;
+    padding-left: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    opacity: 0.5;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+  }
+
+  &__boxright {
+    background-color: $main-gray;
+    width: 494px;
+    height: 310px;
+    border-radius: 10px;
+    padding: 0 25px;
+  }
+
+  &__title1 {
+    margin-top: 40px;
+  }
+
+  &__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 7px;
+  }
+
+  &__iner {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+    color: #000000;
+  }
+
+  &__vektor {
+    color: #d2d2d2;
+  }
+
+  &__send {
+    padding: 17px 30px;
+    background-color: #7297ef;
+    border-radius: 10px;
+    border: none;
+    color: #ffffff;
+    margin: 0 auto;
+    display: flex;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+  }
+}

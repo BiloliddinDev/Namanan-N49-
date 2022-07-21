@@ -895,6 +895,118 @@ template {
   line-height: 14px;
 }
 
+.form {
+  margin-top: 60px;
+}
+.form__heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+.form__box {
+  display: flex;
+  justify-content: space-between;
+}
+.form__name {
+  width: 343px;
+  height: 55px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  outline: none;
+  border-radius: 10px;
+  margin-right: 10px;
+  padding: 18px 0;
+  padding-left: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  opacity: 0.5;
+  background-color: #ffffff;
+  margin-bottom: 10px;
+  color: #000000;
+}
+.form__email {
+  width: 700px;
+  height: 55px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  outline: none;
+  border-radius: 10px;
+  margin-right: 10px;
+  padding: 18px 0;
+  padding-left: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  opacity: 0.5;
+  background-color: #ffffff;
+  margin-bottom: 10px;
+}
+.form__textarea {
+  width: 700px;
+  height: 180px;
+  resize: none;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  outline: none;
+  border-radius: 10px;
+  margin-right: 10px;
+  padding: 18px 0;
+  padding-left: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  opacity: 0.5;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+}
+.form__boxright {
+  background-color: #f6f6f6;
+  width: 494px;
+  height: 310px;
+  border-radius: 10px;
+  padding: 0 25px;
+}
+.form__title1 {
+  margin-top: 40px;
+}
+.form__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 7px;
+}
+.form__iner {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
+  color: #000000;
+}
+.form__vektor {
+  color: #d2d2d2;
+}
+.form__send {
+  padding: 17px 30px;
+  background-color: #7297ef;
+  border-radius: 10px;
+  border: none;
+  color: #ffffff;
+  margin: 0 auto;
+  display: flex;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
 *,
 *::before,
 *::after {
