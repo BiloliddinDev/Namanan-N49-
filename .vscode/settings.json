@@ -1,4 +1,4 @@
- {
+{
   "liveSassCompile.settings.formats": [
     {
       "format": "expanded",
@@ -6,5 +6,6 @@
       "savePath": "/css",
       "savePathReplacementPairs": null
     }
-  ]
- }
+  ],
+  "liveServer.settings.port": 5501
+}

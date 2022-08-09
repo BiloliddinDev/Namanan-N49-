@@ -1,0 +1,70 @@
+.madal {
+  display: none;
+}
+
+.madal__body {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  width: 850px;
+  padding-bottom: 50px;
+  // height: 250px;
+  text-align: center;
+  background-color: #ffffff;
+  margin-top: 100px;
+  border-radius: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  &-img {
+    align-self: flex-end;
+    margin-top: 25px;
+    margin-right: 25px;
+  }
+
+  &__btns {
+    border: none;
+    display: flex;
+    background-color: #f78b3b;
+  }
+
+  &-heading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 34px;
+    margin: 0;
+    margin-bottom: 25px;
+  }
+
+  &-close {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    padding: 15px 40px;
+    width: 187px;
+    align-self: center;
+    border: none;
+    border-radius: 10px;
+    background-color: #f78b3b;
+    color: #ffffff;
+    cursor: pointer;
+  }
+}
+
+.madal--on {
+  display: block;
+}
+
+.parda {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(Home.png);
+  z-index: 1;
+}

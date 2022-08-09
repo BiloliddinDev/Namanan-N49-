@@ -49,7 +49,6 @@
               type="radio"
               name="lang"
               id="uz"
-              checked
             />
             <label class="header__lang-label" for="uz">UZ</label>
           </div>
@@ -60,6 +59,7 @@
               type="radio"
               name="lang"
               id="ru"
+              checked
             />
             <label class="header__lang-label" for="ru">RU</label>
           </div>
@@ -483,13 +483,24 @@
         </div>
       </div>
     </footer>
-
     <div class="madal">
-      <img src="./images/Vector.png" alt="close" class="madal__img" />
-      <h2 class="madal__heading">
-        Хотите быть в курсе свежих новостей? Включите уведомления!
-      </h2>
-      <button class="madal__close">Включит</button>
+      <div class="madal__body">
+        <img
+          src="./images/Vector.png"
+          width="13"
+          height="13"
+          alt="close"
+          class="madal__body-img"
+        />
+
+        <h2 class="madal__body-heading">
+          Хотите быть в курсе свежих новостей? <br />
+          Включите уведомления!
+        </h2>
+        <button class="madal__body-close">Включит</button>
+      </div>
+      <div class="parda"></div>
     </div>
+    <script src="./js/index.js"></script>
   </body>
 </html>
